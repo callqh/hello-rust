@@ -23,4 +23,14 @@ fn main() {
         // 函数返回值，不加分号相当于直接返回，return 233;
         233
     }
+    // ===========循环========
+    for num in 1..4 {
+        println!("{}!", num);
+    }
+
+    let mut flag = 1;
+    while flag < 4 {
+        println!("{}!!", flag);
+        flag += 1;
+    }
 }
